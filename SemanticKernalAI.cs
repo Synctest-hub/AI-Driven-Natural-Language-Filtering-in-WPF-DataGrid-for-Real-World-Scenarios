@@ -33,7 +33,7 @@ namespace SmartFilterPredicates_Demo
             try
             {
                 // Create a kernel with Azure OpenAI chat completion
-                var builder = Kernel.CreateBuilder().AddAzureOpenAIChatCompletion("AI-Integration", "https://wpf-datagrid-desktop.openai.azure.com/", "04a0d89428024c1f864e1efc294aa55e");
+                var builder = Kernel.CreateBuilder().AddAzureOpenAIChatCompletion("Model Name", "EndPoint Link", "Key");
 
                 // Build the kernel
                 kernel = builder.Build();
